@@ -1,6 +1,259 @@
+    1  exit
+    2  sudo yum -y groupinstall "development tools"
+    3  yum -y install epel-release wget
+    4  sudo yum -y install epel-release wget
+    5  sudo wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+    6  sudo rpm -Uvh remi-release-7.rpm
+    7  sudo yum -y install --enablerepo=remi-php72 php php-pdo php-mysqlnd php-mbstring php-xml php-fpm php-common php-devel php-mysql unzip
+    8  php -v
+    9  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+   10  php composer-setup.php
+   11  php -r "unlink('composer-setup.php');"
+   12  sudo mv composer.phar /usr/local/bin/composer
+   13  composer -v
+   14  えexit
+   15  vagrant halt
+   16  vagrant ssh
+   17  exit
+   18  ls /
+   19  ls
+   20  ls/
+   21  ls /
+   22  ls /user
+   23  ls /usr
+   24  ls /
+   25  ls -i /
+   26  ls -a /
+   27  pwd
+   28  cd /vagrant
+   29  pwd
+   30  cd ~
+   31  pwd
+   32  cd /
+   33  pwd
+   34  cd -
+   35  pwd
+   36  cd .
+   37  pwd
+   38  cd /
+   39  pwd
+   40  cd .
+   41  pwd
+   42  cd ..
+   43  pwd
+   44  cd ~
+   45  pwd
+   46  cd vagrant
+   47  cd /vagrant
+   48  pwd
+   49  cd usr
+   50  cd /usr
+   51  pwd
+   52  cd -
+   53  pwd
+   54  mkdir server_lesson && cd server_lesson
+   55  pwd
+   56  git init
+   57  touch first.txt
+   58  ls
+   59  ls -
+   60  cd -
+   61  ls
+   62  mkdir server_lesson/linux_practice/public
+   63  mkdir -p server_lesson/linux_practice/public
+   64  ls
+   65  cd server_lesson
+   66  ls
+   67  cd -
+   68  pwd
+   69  ls server_lesson/linux_practice
+   70  pwd
+   71  touch server_lesson/linux_practice/public/index.php
+   72  ls server_lesson/linux_pracitice/public
+   73  ls
+   74  ls server_lesson
+   75  ls server_lesson/linux_practice/public
+   76  cd server_lesson && ls
+   77  pwd
+   78  cd linux_practice/public
+   79  cp index.php index_bk.php
+   80  ls
+   81  cd -
+   82  cd linux_practice
+   83  cp linux_practice
+   84  cp -r  linux_practice
+   85  cp public tmp
+   86  cp -r public tmp
+   87  ls
+   88  ls ./
+   89  ls ./ public tmp
+   90  ls tmp
+   91  ls
+   92  cd ~
+   93  pwd
+   94  cd /vagrant
+   95  mv server_lesson/linux_practice server_lesson/linux_practice1
+   96  ls
+   97  mkdir linux_practice2 linux_practice3
+   98  mv mv ./linux_practice2 ./server_lesson
+   99  mv ./linux_practice2 ./server_lesson
+  100  ls server_lesson
+  101  cd server_lesson
+  102  ls
+  103  cd -
+  104  ls
+  105  exit
+  106  ls
+  107  cd ~
+  108  pwd
+  109  ls
+  110  cd /vagrant/server_lesson/linux_practice1/tmp/
+  111  pwd
+  112  ls
+  113  rm *_bk.php
+  114  ls
+  115  cd ~
+  116  pwd
+  117  cd /vagrant
+  118  ls
+  119  ls linux_practice
+  120  ls linux_practice3
+  121  ls server_lesson
+  122  rm server_lesson/first.txt
+  123  ls server_lesson
+  124  rm linux_practice3
+  125  rm -r linux_practice3
+  126  ls
+  127  ls Vagrantfile
+  128  ls Vagrantfile/Vagrantfile
+  129  mkdir aaa
+  130  ls
+  131  rm -i aaa
+  132  rm -r -i aaa
+  133  ls
+  134  mkdir aaa.php
+  135  mkdir aaa_b.php
+  136  ls
+  137  rm aa?.php
+  138  rm -r -i aa?.php
+  139  rm -r -i *.php
+  140  ls
+  141  cd server_lesson
+  142  pwd
+  143  echo '#　サーバレッスン' > README.md
+  144  echo 'Linuxプラクティス' >> README.md
+  145  echo '-----------------' >> README.md
+  146  cat README.md
+  147  vi README.md
+  148  cat README.md
+  149  pwd
+  150  ls
+  151  ls linux_practice1
+  152  ls linux_practice1/public
+  153  ls linux_practice1/tmp
+  154  vi README.md
+  155  cat README.md
+  156  vi README.md
+  157  cat README.md
+  158  vi README.md
+  159  cat README.md
+  160  git status
+  161  git add .
+  162  git status
+  163  git commit -m "LinuxCommandLesson"
+  164  git remote add origin https://github.com/admjz/server_lesson.git
+  165  git remote -v
+  166  git branch
+  167  git push origin master
+  168  mkdir linux_practice2/documents
+  169  ls
+  170  ls kinux_pracitce
+  171  ls kinux_practice
+  172  ls linux_practice
+  173  ls linux_practice2
+  174  touch gizumo{01..50}.md
+  175  ls
+  176  rm gizumo{01..50}.md
+  177  ls
+  178  touch linux_practice2/touch gizumo.md
+  179  ls
+  180  rm gizumo.md
+  181  ls
+  182  cd linux_practice2
+  183  ls
+  184  rm touch
+  185  ls
+  186  cd documents
+  187  ls
+  188  touch gizumo{01..50}.md
+  189  ls
+  190  cd -
+  191  mkdir trash
+  192  ls
+  193  mv documents/gizumo{20..29}.md trash
+  194  ls
+  195  ls trash
+  196  mv documents/gizumo{30..40}.md trash
+  197  ls trash
+  198  touch .gitignore
+  199  ls
+  200  vi .gitignore
+  201  git status
+  202  vi .gitignore
+  203  history 300
   204  history 300 >> exec_command.log
-rash
-
-om/admjz/server_lesson.git
-.php');"
-string php-xml php-fpm php-common php-devel php-mysql unzip
+  205  ls
+  206  cd -
+  207  pwd
+  208  cd ~
+  209  pwd
+  210  cd /vagrant/server_lesson
+  211  git status
+  212  ls
+  213  remote -v
+  214  cd linux_practice
+  215  cd linux_practice1
+  216  remote -v
+  217  cd -
+  218  remote -v
+  219  cd -
+  220  git remote -v
+  221  ls
+  222  git status
+  223  git add .
+  224  git status
+  225  git reset HEAD
+  226  git status
+  227  ls
+  228  vi linux_practice2/trash
+  229  vi .gitignore
+  230  vi linux_practice/.gitignore
+  231  vi linux_practice2/.gitignore
+  232  git add .
+  233  git status
+  234  git reset HEAD
+  235  git status
+  236  vi linux_practice2/.gitignore
+  237  ls linux_practice
+  238  ls linux_practice2
+  239  ls linux_practice2/trash
+  240  git add .
+  241  git status
+  242  git remote -v
+  243  git commit -m ""
+  244  git status
+  245  git commit -m "LinuxCommandLesson2"
+  246  git push origin master
+  247  ls linux_lesson2
+  248  ls linux_practice2
+  249  cd linux_practice
+  250  cd linux_practice2
+  251  cat exec_command.log
+  252  history 300
+  253  cd -
+  254  history 300
+  255  ls
+  256  cd linux_practice2
+  257  ls
+  258  history 300 -w exec_command.log
+  259  history 300 > exec_command.log
